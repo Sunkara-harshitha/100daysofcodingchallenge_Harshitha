@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <header>
+    <h1>Welcome to ABC Restaurant</h1> <!--h1 Heading tag-->
+    <p>Our restaurant, <b>ABC</b> offers a unique blend of traditional and contemporary culinary delights, set in a cozy, inviting atmosphere perfect for any occasion.</p>
+    </header>
+    <h2>Menu</h2> <!--h2 Heading tag-->
+    <section>
+    <h3>Appetizers</h3> <!--h3 Heading tag ; Observe the difference in the tags-->
+    <a href="#appetizers">View Appetizers</a>
+    <ul> <!--Unordered list-->
+        <img src="C:\Users\91863\Desktop\100DaysChallenge\21080-great-garlic-bread-DDMFS-4x3-e1c7b5c79fde4d629a9b7bce6c0702ed.jpg" alt="Garlic Bread"  width="80" height="80"/>
+        <li>Garlic Bread</li>
+        <img src="C:\Users\91863\Desktop\100DaysChallenge\download.jpeg" alt="Bruschetta"  width="80" height="80"/>
+        <li>Bruschetta</li>
+        <img src="C:\Users\91863\Desktop\100DaysChallenge\download (1).jpeg" alt="Stuffed Mushrooms"  width="80" height="80"/>
+        <li>Stuffed Mushrooms</li>
+    </ul>
+    </section>
+    <hr>
+    <section>
+    <h3>Main Courses</h3>
+    <ol>
+        <li>Biryani</li>
+        <li>Butter Chicken</li>
+        <li>Korma</li>
+    </ol>
+    </section>
+    <hr>
+    <section>
+    <h3 >Desserts</h3>
+    <ol>
+        <li class="desserts">Special: Cake</li>
+        <li>Cookie</li>
+        <li>Candy</li>
+    </ol>
+    </section>
+    <h3>Submit your reviews here:</h3>
+    <form action="submit-review.php" method="post">
+        <input type="text" name="customer_name" placeholder="Your Name">
+        <textarea name="review" placeholder="Write your review here..."></textarea>
+        <input type="submit" value="Submit Review">
+      </form>
+</body>
+<footer> Contact Us </footer>
+</html>
